@@ -1,6 +1,9 @@
+import { MouseEventHandler } from "react";
+
 export interface Post {
-    mode?:boolean;
-    id?: string;
-    title: string;
-    content: string;
-};
+  mode?: number;
+  id?: string;
+  title: string;
+  content: string;
+  onClick?: MouseEventHandler<HTMLDivElement>;
+}
