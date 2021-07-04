@@ -4,6 +4,12 @@
 - 다른 회사 인턴에 이미 가기로 한 상태여서 제출은 안했음
 - 기록용 및 추가 선택사항에 대해 공부하고자 필수구현만 구현하고 올려봄
 
+## 주요 사용 라이브러리
+- @fortawesome/fontawesome-svg-core, @fortawesome/free-solid-svg-icons, @fortawesome/react-fontawesome
+- styled-component
+- axios
+
+## 구현 화면
 ![image](https://user-images.githubusercontent.com/31684481/124393992-3ca0a480-dd38-11eb-845f-bd9ec2bbd5e6.png)
 ![image](https://user-images.githubusercontent.com/31684481/124394001-4b875700-dd38-11eb-8c68-c4f9b5177f2f.png)
 ![image](https://user-images.githubusercontent.com/31684481/124394026-6ce84300-dd38-11eb-9df7-918058501ee1.png)
