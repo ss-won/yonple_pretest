@@ -8,6 +8,11 @@ interface SearchBarBoxType {
   hover: boolean;
 }
 
+interface SearchBarType {
+  handleSearch: ChangeEventHandler<HTMLInputElement>;
+  value: string;
+}
+
 const SearchBarBox = styled.div<SearchBarBoxType>`
   position: relative;
   white-space: nowrap;
@@ -52,11 +57,6 @@ const SearchInput = styled.input.attrs({
     color: #65737e;
   }
 `;
-
-interface SearchBarType {
-  handleSearch: ChangeEventHandler<HTMLInputElement>;
-  value: string;
-}
 
 const SearchBar = ({ handleSearch, value }: SearchBarType) => {
   const [hover, setHover] = useState(false);
